@@ -10,6 +10,7 @@ packages = [{include = "cc_beats"}]
 python = "^3.11"
 beautifulsoup4 = "^4.12.2"
 flask = "^2.3.2"
+requests = "^2.31.0"
 
 
 [build-system]
