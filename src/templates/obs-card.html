@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CC Beats</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            border: 0;
+            padding: 0;
+        }
+
+        .banner {
+            margin: 0;
+            border: 0;
+            padding: 0;
+            padding-left: 5px;
+            border-radius: 10px;
+
+            font-size: 10px;
+            font-family: 'Poppins', sans-serif;
+
+            color: #ECF9FF;
+            background-color: #293462;
+
+            width: 250px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <audio src={{url}} autoplay onended="window.location.reload()"></audio>
+        <h3>{{attr_text}}</h3>
+    </div>
+</body>
+
+</html>

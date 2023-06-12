@@ -7,7 +7,7 @@ def init():
     index = 0
 
     base_url = "https://ncs.io/music-search?q=&genre=&mood=&version=regular-instrumental&page={}"
-    base_attr_text = "Song: {} - {} Music provided by NoCopyrightSounds Free Download/Stream: http://ncs.io{} Watch: http://ncs.lnk.to{}AT/youtube"
+    base_attr_text = "Song: {} - {} Music provided by NoCopyrightSounds \n Free Download/Stream: http://ncs.io{}"
 
     page_no = 1
     while True:

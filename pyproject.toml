@@ -1,10 +1,9 @@
 [tool.poetry]
 name = "cc-beats"
 version = "0.1.0"
-description = ""
+description = "Rest Api Paired with Web Scraper for fetching NCS Releases"
 authors = ["Harish <dev.harish3124@gmail.com>"]
 readme = "README.md"
-packages = [{include = "cc_beats"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
