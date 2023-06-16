@@ -3,6 +3,9 @@
 # CC-Beats
 Play Copyright free NCS Release songs in OBS as Browser Source
 
+![screenshot](screenshots/obs-window.png)
+![screenshot](screenshots/widget.png)
+
 ## Features
 + Automatically cycle through random songs
 + Includes Attribution Text
